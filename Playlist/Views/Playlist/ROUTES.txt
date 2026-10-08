@@ -1,0 +1,9 @@
+﻿1. /track/2 - Guess: 200 - Actual:200 - Valid track number within 1-6.
+2. /track/5 - Guess: 200 - Actual:200 - Valid track number within 1-6.
+3. /find/drake - Guess: 200 - Actual:200 - Valid search word that matches a song.
+4. /find/coldplay - Guess: 200 - Actual:200 - Valid search word that matches a song.
+
+5. /track/8 - Guess: 404 - Actual:404 - Track number is outside the allowed range.
+6. /track/hello - Guess: 404 - Actual:404 - "hello" is not an integer.
+7. /Playlist/Track/5 - Guess: 404 - Actual:404 - Track uses an attribute route.
+8. /liner-notes/extra - Guess: 404 - Actual:404 - No route matches this URL.
